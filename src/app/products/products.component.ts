@@ -12,7 +12,7 @@ export class ProductsComponent implements OnInit {
 	constructor(private _httpService: HttpService) {
 		_httpService.observedItems.subscribe(
 			(updatedItems) => {  this.items = updatedItems; },
-			(err) => { console.log('error')},
+			(err) => { console.log('errors!!!')},
 			() => { }
 		)
 	}
