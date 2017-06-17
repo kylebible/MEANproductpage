@@ -1,0 +1,13 @@
+.item {
+    border: 1px solid black;
+    background-color: white;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin: 7px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
